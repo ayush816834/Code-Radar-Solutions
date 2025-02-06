@@ -1,7 +1,6 @@
 #include <stdio.h>
-int main() {
-    float a;
-    printf("You entered");
-    scanf(%f,&a);
-    return 0;
-}
+int main()
+{
+float s;
+printf("enter the price: ");
+scanf("%fd",& s);}
