@@ -2,5 +2,5 @@
 int main()
 {
 float s;
-printf("enter the price: ");
+printf("You entered: ");
 scanf("%fd",& s);}
