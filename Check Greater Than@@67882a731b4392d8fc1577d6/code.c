@@ -1,12 +1,12 @@
 #include <stdio.h>
-int main()
-{
+int main() {
     int a, b;
-    printf("First Value");
+    printf("Enter the First Value: ");
     scanf("%d", &a);
 
-    printf("Seond Value");
+    printf("Enter the Second Value: ");
     scanf("%d", &b);
+
     if (a < b) {
         printf("True\n");
     } else {
