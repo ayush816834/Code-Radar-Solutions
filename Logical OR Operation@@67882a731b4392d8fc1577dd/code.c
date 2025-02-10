@@ -7,7 +7,7 @@ int main() {
     scanf("%d", &b);
     if (a||b>0) {
         printf("True\n");
-    } else (-a||-b>0) {
+    } else {
         printf("False\n");
     }
     return 0;
