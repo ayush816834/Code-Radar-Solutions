@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main() {
     int a, b;
-    printf("Enter the First Value: ");
+    printf("");
     scanf("%d", &a);
 
-    printf("Enter the Second Value: ");
+    printf("");
     scanf("%d", &b);
 
     if (a > b) {
