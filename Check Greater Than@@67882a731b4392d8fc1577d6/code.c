@@ -7,7 +7,7 @@ int main() {
     printf("Enter the Second Value: ");
     scanf("%d", &b);
 
-    if (a < b) {
+    if (a > b) {
         printf("True\n");
     } else {
         printf("False\n");
