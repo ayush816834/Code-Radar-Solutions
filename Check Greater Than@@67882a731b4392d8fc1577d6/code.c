@@ -5,7 +5,7 @@ int main()
     printf("Enter the First Value: ");
     scanf("%d", &a);
 
-    printf("Enter the Discount: ");
+    printf("Enter the Second Value ");
     scanf("%d", &b);
     if (a < b) {
         printf("True\n");
