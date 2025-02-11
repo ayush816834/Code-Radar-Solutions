@@ -3,7 +3,6 @@
 int main()
 {
 int num;
-printf("enter character: ");
 scanf("%d",&num);
 if(num<18)
 {
