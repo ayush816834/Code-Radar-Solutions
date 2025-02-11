@@ -8,7 +8,7 @@ if(num<18)
 {
     printf("Not Eligible");
 }
-else if (num>18)
+else if (num>=18)
 {
     printf("Eligible");
 }
