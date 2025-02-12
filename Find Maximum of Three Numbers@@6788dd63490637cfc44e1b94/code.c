@@ -4,10 +4,12 @@ int main()
     scanf("%d %d %d",&a,&b,&c);
      if (a>c&&b)
      {
-        printf("Valid");
-     }else
+        printf("%d",a);
+     }else if (b>a&&c)
      {
-        printf("Invalid");
+        printf("%d",b);
+     }else{
+        print("%d",c)
      }
     return 0;
 }
