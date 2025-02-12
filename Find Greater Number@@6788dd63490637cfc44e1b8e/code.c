@@ -7,7 +7,7 @@ if(num1>num2)
 {
     printf("%d", &num1);
 }
-else
+else if (num1<num2)
 {
     printf("%d", &num2);
 }
