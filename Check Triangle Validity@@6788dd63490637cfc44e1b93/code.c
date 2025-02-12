@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int a,b,c,sumab ,sumbc,ca;
+    int a,b,c,sumab,sumbc,ca;
     scanf("%d %d %d",&a,&b,&c);
     sumab=a+b;
     sumbc=b+c;
@@ -12,6 +12,5 @@ int main() {
     {
         printf("Invalid");
     }
-
     return 0;
 }
