@@ -5,7 +5,7 @@ int main()
     sumab=a+b;
     sumbc=b+c;
     sumca=a+c;
-     if (sumab>c||sumbc>a||sumca>b)
+     if (sumab>c&&sumbc>a&&sumca>b)
      {
         printf("Vaild");
       }    else
