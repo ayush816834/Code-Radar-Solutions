@@ -9,17 +9,18 @@ int main()
         printf("Digit");
     }
     else if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) 
-     {
-              if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+    {
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') 
+        {
             printf("Vowel");
         } 
         else 
         {
             printf("Consonant");
         }
-      }
+    }
     else
-     {
+    {
         printf("Special Character");
     }
 
