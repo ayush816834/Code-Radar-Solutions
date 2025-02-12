@@ -7,7 +7,7 @@ int main()
     sumca=a+c;
      if (sumab>c&&sumbc>a&&sumca>b)
      {
-        printf("Vaild");
+        printf("Valid");
       }    else
       {
         printf("Invalid");
