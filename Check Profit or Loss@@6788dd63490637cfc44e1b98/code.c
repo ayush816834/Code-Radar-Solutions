@@ -4,15 +4,15 @@ void main()
     int sp,cp;
     scanf("%d %d",&cp,&sp);
 
-    if (sp-cp>0)
+     if (sp-cp>0)
     {
         printf("Profit");
     }
-    else if (sp-cp<0)
+       else if (sp-cp<0)
     {
         printf("Loss");
     }
-    else 
+      else 
     {
         printf(1"No Loss")
     }
