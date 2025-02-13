@@ -18,6 +18,6 @@ void main()
     }
     else
     {
-        printf("Not Divisible")
+        printf("Not Divisible");
     }
 }
