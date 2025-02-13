@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main()
 {
-    int sp,cp;
+    int cp,sp;
     scanf("%d %d",&cp,&sp);
 
      if (sp-cp>0)
@@ -14,6 +14,5 @@ void main()
     }
       else 
     {
-        printf(1"No Loss")
-    }
-}
+        printf("No Loss");
+    }}
