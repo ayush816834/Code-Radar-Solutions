@@ -5,14 +5,14 @@ void main()
 
     if  (a=b&&b=c&&c=a)
     {
-        printf("Equilateral")
+        printf("Equilateral");
     }
     else if (a=b||b=c||c=a)
     {
-        printf("Isoceles")
+        printf("Isoceles");
     }
     else
     {
-        printf("Scalene")
+        printf("Scalene");
     }
 }
