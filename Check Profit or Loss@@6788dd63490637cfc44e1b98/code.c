@@ -14,5 +14,5 @@ void main()
     }
       else 
     {
-        printf("No Loss");
+        printf("No Profit No Loss");
     }}
