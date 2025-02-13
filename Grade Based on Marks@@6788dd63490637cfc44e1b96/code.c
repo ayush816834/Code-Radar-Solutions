@@ -1,5 +1,4 @@
 #include <stdio.h>
-#inculde <mat
 void main()
 {
     int a;
