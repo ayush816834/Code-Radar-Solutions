@@ -1,13 +1,14 @@
 #include <stdio.h>
 void main()
 {
-    int a,b,c;
+   int a,b,c;
+   scanf("%d %d %d",&a,&b,&c);
 
-        if  (a=b&&b=c&&c=a)
+      if  (a==b && b==c && c==a)
     {
         printf("Equilateral");
     }
-     else if (a=b||b=c||c=a)
+      else if (a==b||b==c||c==a)
     {
         printf("Isoceles");
     }
