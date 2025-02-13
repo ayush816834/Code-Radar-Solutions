@@ -6,26 +6,26 @@ void main()
 
     if(a>=90)
     {
-        printf(A);
+        printf("A");
 
     }
     else if(90>a>=80)
      {
-        printf(B);
+        printf("B");
 
     }
      else if(80>a>=70)
      {
-        printf(C);
+        printf("C");
 
     }
      else if(70>a>=60)
      {
-        printf(D);
+        printf("D");
 
     } else 
      {
-        printf(F);
+        printf("F");
 
     }
 }
