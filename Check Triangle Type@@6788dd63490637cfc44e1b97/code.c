@@ -3,15 +3,15 @@ void main()
 {
     int a,b,c;
 
-    if  (a=b&&b=c&&c=a)
+        if  (a=b&&b=c&&c=a)
     {
         printf("Equilateral");
     }
-    else if (a=b||b=c||c=a)
+     else if (a=b||b=c||c=a)
     {
         printf("Isoceles");
     }
-    else
+      else
     {
         printf("Scalene");
     }
