@@ -9,7 +9,7 @@ int  main(){
         scanf("%d",&arr[i]);
     }
     v=c=arr[0];
-    }printf("%d\n",c);
+    }
     for (int i=0;i<a;i++){
         if(arr[i]>c){
          c=arr[i]; 
