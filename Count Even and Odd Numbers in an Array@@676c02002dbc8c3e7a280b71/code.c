@@ -13,7 +13,7 @@ for (int i=0;i<a;i++){
         even++;
     else
         odd++;}
-printf("%d%d",even,odd);
+printf("%d %d",even,odd);
 
     return 0;
 }
