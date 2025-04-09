@@ -10,8 +10,9 @@ int  main(){
     for (int i=0;i<a;i++){
         if(arr[i]>arr[i+1]){
          arr[i]=arr[i+1];
-            arr[i+1]=c;  
-}printf("%d\n",c);
+            arr[i+1]=c; 
+            printf("%d\n",c); 
+}
     }
     return 0;
 }
