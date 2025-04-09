@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
 int a;
-int even;
-int odd;
+int even=0;
+int odd=0;
 scanf("%d",&a);
 int arr[a];
 for (int i=0;i<a;i++){
