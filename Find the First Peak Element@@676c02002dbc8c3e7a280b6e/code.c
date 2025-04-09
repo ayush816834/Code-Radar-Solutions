@@ -11,6 +11,6 @@ int  main(){
         if(arr[i]>c){
          c=arr[i]; 
     }
-    }printf("%d",c);
+    }printf("%d\n",c);
     return 0;
 }
