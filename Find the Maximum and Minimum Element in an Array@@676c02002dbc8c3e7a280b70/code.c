@@ -17,6 +17,6 @@ int  main(){
     for (int i=0;i<a;i++){
         if(arr[i]<v){
          v=arr[i]; 
-    } }printf("%d\n,%d",c,v);
+    } }printf("%d %d",v,c);
     return 0;
 }
