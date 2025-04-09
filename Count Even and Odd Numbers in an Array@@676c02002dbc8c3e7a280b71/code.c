@@ -9,16 +9,11 @@ for (int i=0;i<a;i++){
 for (int i=0;i<a;i++){
     if (arr[i]%2==0){
         printf("%d",arr[i]);
-    }
+    }}
 for (int i=0;i<a;i++){
     if (arr[i]%2!=0){
         printf("%d",arr[i]);
     }
 }
-
-
-
-
-
     return 0;
 }
