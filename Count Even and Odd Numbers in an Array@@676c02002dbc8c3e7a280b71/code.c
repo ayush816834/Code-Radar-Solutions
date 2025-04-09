@@ -11,7 +11,7 @@ for (int i=0;i<a;i++){
 
     if (arr[i]%2==0){
         even++;
-    else(arr[i]%!=0){
+    else{
         odd++;
     }
     }
