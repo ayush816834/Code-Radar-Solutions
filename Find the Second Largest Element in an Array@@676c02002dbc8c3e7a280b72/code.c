@@ -18,7 +18,7 @@ int main(){
         scanf("%d ",&arr[i]);
     }
     bubblesort(arr,n);
-  if(n<3){ printf("%d ",arr[n-2]);}
+  if(n<2){ printf("%d ",arr[n-2]);}
   else
   printf("-1");
     return 0;
