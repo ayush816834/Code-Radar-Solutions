@@ -1,20 +1,28 @@
-#include<stdio.h>
-int main(){
-    int n;
-    scanf("%d",&n);
-    int arr[n];
-    for (int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
-    }
-    int a;
-    scanf("%d",&a);
+#include <stdio.h>
 
-    for(int i=0;i<n;i++){
-        if (arr[i]==a){
-            printf("%d",i);
-        }
-        else
-        printf("-1");
+int main() {
+    int n, found = 0;
+    scanf("%d", &n);
+
+    int arr[n];
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
+
+    int a;
+    scanf("%d", &a);
+
+    for (int i = 0; i < n; i++) {
+        if (arr[i] == a) {
+            printf("%d\n", i);
+            found = 1;
+            break; // Stop after first match
+        }
+    }
+
+    if (!found) {
+        printf("-1\n"); // Element not found
+    }
+
     return 0;
 }
