@@ -18,6 +18,8 @@ int main(){
         scanf("%d ",&arr[i]);
     }
     bubblesort(arr,n);
-   printf("%d ",arr[n-2]);
+  if(n<3){ printf("%d ",arr[n-2]);}
+  else
+  printf("-1");
     return 0;
 }
