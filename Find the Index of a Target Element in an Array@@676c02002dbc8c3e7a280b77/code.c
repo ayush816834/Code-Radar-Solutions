@@ -18,11 +18,12 @@ int main() {
             found = 1;
            
         }
-    }
-
-        else{
+         else{
         printf("-1\n");
     }
+    }
+
+       
 
     return 0;
 }
