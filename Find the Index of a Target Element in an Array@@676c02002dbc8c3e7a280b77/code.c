@@ -16,11 +16,11 @@ int main() {
         if (arr[i] == a) {
             printf("%d\n", i);
             found = 1;
-            break;
+           
         }
     }
 
-    else if{
+        else{
         printf("-1\n");
     }
 
