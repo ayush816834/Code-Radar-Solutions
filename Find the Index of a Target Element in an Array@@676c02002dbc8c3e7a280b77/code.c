@@ -14,7 +14,7 @@ int main() {
 
     for (int i = 0; i < n; i++) {
         if (arr[i] == a) {
-            printf("Element found at index: %d\n", i);
+            printf("%d\n", i);
             found = 1;
             break; 
         }
