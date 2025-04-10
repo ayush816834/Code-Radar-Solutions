@@ -16,12 +16,12 @@ int main() {
         if (arr[i] == a) {
             printf("%d\n", i);
             found = 1;
-            break; // Stop after first match
+            break;
         }
     }
 
-    if (!found) {
-        printf("-1\n"); // Element not found
+    else {
+        printf("-1\n");
     }
 
     return 0;
