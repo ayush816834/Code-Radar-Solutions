@@ -19,8 +19,6 @@ int main(){
     }
     bubblesort(arr,n);
     printf("\n");
-    for(int i=0;i<n;i++){
-        printf("%d ",arr[n-2]);
-    }
+   printf("%d ",arr[n-2]);
     return 0;
 }
