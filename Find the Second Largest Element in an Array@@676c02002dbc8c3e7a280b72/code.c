@@ -19,8 +19,6 @@ int main(){
     }
     bubblesort(arr,n);
   if(n>3){ printf("%d ",arr[n-2]);}
-  else if(n>2)
-  printf("%d ",arr[0]);
   else
   printf("-1");
     return 0;
