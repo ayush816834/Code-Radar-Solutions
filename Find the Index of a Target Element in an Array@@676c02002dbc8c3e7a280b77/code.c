@@ -20,7 +20,7 @@ int main() {
         }
     }
 
-    else {
+    else if{
         printf("-1\n");
     }
 
