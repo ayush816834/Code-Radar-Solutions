@@ -14,16 +14,16 @@ int main() {
 
     for (int i = 0; i < n; i++) {
         if (arr[i] == a) {
-            printf("%d\n", i);
+            printf("Element found at index: %d\n", i);
             found = 1;
-           
+            break; 
         }
-         else{
-        printf("-1\n");
-    }
     }
 
-       
+    if (!found) {
+        printf("-1\n"); 
+    }
 
     return 0;
 }
+Loading Code...
