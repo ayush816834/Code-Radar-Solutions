@@ -15,7 +15,8 @@ if(n%2!=0){
 
 
 if(n%2==0){
-    printf("%d",(arr[mid]+arr[mid+1])/2);
+    mid = n/2;
+    printf("%d",(arr[mid]+arr[mid-1])/2);
 }
 
 
