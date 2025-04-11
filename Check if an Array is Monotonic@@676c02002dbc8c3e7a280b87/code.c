@@ -11,12 +11,12 @@ int main(){
     }
     for(int i=0;i<n;i++){
         if(arr[i]>arr[i-1]){
-           increasing = flase;
+           increasing = false;
         }
     }
     for(int i=0;i<n;i++){
         if(arr[i]<arr[i-1]){
-           increasing = flase;
+           increasing = false;
         }
     if (increasing||decreasing){
         printf("YES");
