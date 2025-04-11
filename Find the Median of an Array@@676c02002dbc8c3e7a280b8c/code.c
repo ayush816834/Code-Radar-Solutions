@@ -8,9 +8,9 @@ for (int i=0;i<n;i++){
     scanf("%d",&arr[i]);
 }
 int mid;
-if(n%2!=0)[
+if(n%2!=0){
     int mid = n/2;
-]
+}
 printf("%d",arr[mid]);
 
 
