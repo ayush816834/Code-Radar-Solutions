@@ -10,10 +10,11 @@ for (int i=0;i<n;i++){
 int mid;
 if(n%2!=0){
     int mid = n/2;
+    printf("%d",arr[mid]);
 }
-printf("%d",arr[mid]);
 
-if{
+
+if(n%2==0){
     printf("%d",(arr[mid]+arr[mid+1])/2);
 }
 
