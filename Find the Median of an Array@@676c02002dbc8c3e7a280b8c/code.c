@@ -9,7 +9,7 @@ for (int i=0;i<n;i++){
 }
 for (int i=0;i<n;i++){
     if ( n%2!=0){
-        printf("%d",arr[i]%2);
+        printf("%d",arr[i]/2);
     }
 }
 
