@@ -17,9 +17,9 @@ int main() {
             }
            
          }
-      }
+      
       if(leader){
         printf("%d ",arr[i]);
-      }
+      }}
      return 0;
 }
