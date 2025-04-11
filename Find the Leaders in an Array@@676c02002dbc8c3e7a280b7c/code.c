@@ -13,8 +13,9 @@ int main() {
 
             if (arr[i]<arr[j]){
                 leader =0;
+                 break;
             }
-            break;
+           
          }
       }
       if(leader){
