@@ -13,7 +13,7 @@ if(n%2!=0){
 }
 printf("%d",arr[mid]);
 
-else{
+if{
     printf("%d",(arr[mid]+arr[mid+1])/2);
 }
 
