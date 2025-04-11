@@ -7,11 +7,11 @@ int arr[n];
 for (int i=0;i<n;i++){
     scanf("%d",&arr[i]);
 }
-for (int i=0;i<n;i++){
-    if ( n%2!=0){
-        printf("%d",arr[i]/2);
-    }
-}
+int mid;
+if(n%2!=0)[
+    int mid = n/2;
+]
+printf("%d",arr[mid]);
 
 
 
